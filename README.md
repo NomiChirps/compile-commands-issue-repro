@@ -1,9 +1,8 @@
 Minimal-ish reproduction for https://github.com/hedronvision/bazel-compile-commands-extractor/issues/70
 
-You'll need `arm-none-eabi-gcc` on your PATH. Then, run with:
+Run with:
 
 ```
-# See .bazelrc for implicit flags
 bazel run :refresh_compile_commands
 ```
 
