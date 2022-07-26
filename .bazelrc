@@ -1,3 +1,1 @@
-build --incompatible_enable_cc_toolchain_resolution
-build --platforms=@rules_pico//platforms:pico
-run --platforms=
+build --compiler=mingw-gcc --action_env="BAZEL_SH=C:/tools/msys64/usr/bin/bash.exe"
