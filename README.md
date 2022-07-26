@@ -7,8 +7,6 @@ You'll need `arm-none-eabi-gcc` on your PATH. Then, run with:
 bazel run :refresh_compile_commands
 ```
 
-Then observe that compile_commands.json contains extraneous entries for `test.h` and many system header files, when it should have only one entry: `test.cc`.
-
 Tested on Windows with the following Bazel version, but I have no reason to believe it won't work the same way on Linux.
 ```
 Bazelisk version: v1.12.0
